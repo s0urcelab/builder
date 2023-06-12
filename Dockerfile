@@ -9,6 +9,6 @@ RUN set -ex \
                autotools-dev \
                autopoint \
                gettext \
-               pkg-config
+               pkg-config \
     && apt-get clean \
     && rm -rf /tmp/* /var/tmp/*
